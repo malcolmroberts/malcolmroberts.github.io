@@ -1,0 +1,15 @@
+Week	Date		Text_Sections	Material
+1	Jan 5-8		2.1,2.2			Intro:falling, sparable equations
+2	Jan 11-15	2.3,2.4,2.6		Linear,Exact, Substitutions and Transformations
+3 	Jan 18-22 	4.2, 4.3 		Hom. Lin. Equations: general, Complex roots of auxiliary equations
+4 	Jan 25-29 	4.4, 4.5, 4.6		undetermined coefficients, superposition for undet coeff, variation of parameters
+5 	Feb 1-5 	4.7, 4.9  		variable-coefficient equations, harmonic oscilator
+6 	Feb 8-12  	7.2, 7.3, 7.4		Laplace transforms: definition, properties, inverse
+7 	Feb 22-26	7.5, 7.6  		Laplace transforms: Solving IVPs, Transforms of step functions
+8 	Mar 1-5 	7.7, 7.8		Laplace transofrms: convolutions, delta functions
+9 	Mar 8-12	7.9, 8.2 (review), 8.3 	Laplace transforms: solving systems of ODEs. Power series solutions to DEs
+10 	Mar 15-19	8.4, 8.5 	   	DEs with analytic coeffs, Cauch-Euler equations (regular singular)
+11 	Mar 22-26	10.1, 10.2		Heat flow, separations of variables
+12 	Mar 29-Apr 1 	10.3, 10.4		Fourier Series, Sine and Cosine Series (Friday is a holiday)
+13 	Apr 6-9    	10.4, 10.5		Sine and Cosine Series, The Heat Equation (Monday is a holiday)
+14 	Apr 12	   	Review and scrambling to catch up
