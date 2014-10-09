@@ -4,18 +4,18 @@
   </HEAD>
   <BODY BGCOLOR="#FFFFFF">
 
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-    <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-49687710-1', 'auto');
+  ga('send', 'pageview');
 
-      ga('create', 'UA-49687710-1', 'auto');
-      ga('send', 'pageview');
+</script>
 
-    </script>
-
+<iframe src="http://monolith.dnsdynamic.net/~mal/ualberta/counter" style="visibility:hidden;display:none"></iframe>
 
     <p  style="margin-left:4px;">
       <TABLE border=0>
@@ -30,7 +30,7 @@
 
     <p  style="margin-left:4px;">
       Postdoctoral Researcher, 
-      <a href="http://www-irma.u-strasbg.fr/">IRMA</a>, <a href="http://www.unistra.fr/">University of Strasbourg</a>.
+      <a href="http://www.inria.fr/equipes/tonus">TONUS group</a>, <a href="http://www-irma.u-strasbg.fr">University of Strasbourg</a>.
     </p>
 
     <!--
@@ -53,7 +53,7 @@
     <p  style="margin-left:4px;">
       <B>Email:</B> <a href="mailto:malcolm.i.w.roberts@gmail.com">malcolm.i.w.roberts@gmail.com</a>
 
-      <B>Public Key: </B><a HREF=malcolm_roberts_pub.asc>malcolm_roberts_pub.asc<a> 
+      <B>Public Key: </B><a HREF=https://www.ualberta.ca/~malcolmr/malcolm_roberts_pub.asc>malcolm_roberts_pub.asc<a> 
     </p>
 
     <p  style="margin-left:4px;">
@@ -86,7 +86,7 @@
 	PhD, University of Alberta
 	<br>
 	&nbsp&nbsp
-	Thesis: <a href="publications/roberts_phd.pdf">Multispectral
+	Thesis: <a href="https://www.ualberta.ca/~malcolmr/publications/roberts_phd.pdf">Multispectral
 	  Reduction of Two-Dimensional Turbulence</a>
 	<br>&nbsp&nbsp
 	Supervisor: <a href="http://www.math.ualberta.ca/~bowman/">John C. Bowman</a>
@@ -96,7 +96,7 @@
 	MSc Applied Math, University of Alberta
 	<br>&nbsp&nbsp
 	Thesis: 
-	<a HREF="publications/roberts_msc.pdf">Multi-Spectral Decimation Scheme for Turbulence Simulations</A>
+	<a HREF="https://www.ualberta.ca/~malcolmr/publications/roberts_msc.pdf">Multi-Spectral Decimation Scheme for Turbulence Simulations</A>
 	<br>&nbsp&nbsp
 	Supervisor: <a href="http://www.math.ualberta.ca/~bowman/">John C. Bowman</a>
       </p>
@@ -112,19 +112,30 @@
 <H2>Resources</H2>
 
 <p  style="margin-left:4px;">
-  <a href="http://fftwpp.sourceforge.net/">FFTW++</a>, a C++ wrapper for the 
+  <a href="http://fftwpp.sourceforge.net/">fftw++</a>, a C++ wrapper for the 
   <a href="http://fftw.org/">FFTW</a> library, which also includes new
   implicitly-dealiased convolution routines.
 </p>
 
 <p  style="margin-left:4px;">
-  A <a href="http://code.google.com/p/ualberta-math-stat-templates/">thesis template</a> suitable for the University of Alberta math and stats department.  Also includes some form templates, and Asymptote-based business cards templates.
+  <a href="https://github.com/malcolmroberts/opencl-intel-deb-patches">opencl-intel-deb-patches</a>,
+  patches for the Debian/Ubuntu packages for Intel's OpenCL drivers.
+  Patched versions are available
+  <a href=https://www.ualberta.ca/~malcolmr/opencl-intel-deb-patched/>here</a>.
+</p>
+
+
+
+<p  style="margin-left:4px;">
+  A <a href="http://code.google.com/p/ualberta-math-stat-templates/">thesis
+  template</a> suitable for the University of Alberta math and stats
+  department.  Also includes some form templates, and Asymptote-based
+  business cards templates.
 </p>
 
 <p  style="margin-left:4px;">
   <a href="https://play.google.com/store/books/details/Malcolm_Roberts_and_Samantha_Marion_Lab_Notes_for_?id=oazxJVVrC_gC">Lab
-    Notes for Math 201</a> available through Google Books. Available
-    in Canada and the USA for free.
+    Notes for Math 201</a> available through Google Books (USA and Canada).  PDF available as well: <a href=https://www.ualberta.ca/~malcolmr/publications/roberts_marion-intro_DEs_lab_manual.pdf>download PDF</a>.
 </p>
 
 <p  style="margin-left:4px;">
@@ -144,25 +155,37 @@
   <a href="http://asymptote.sourceforge.net/">Asymptote</a>, a TeX/LaTeX aware vector graphics language.
 </p>
 
+<p  style="margin-left:4px;">
+  <a href="software/cooltowarm.asy">cooltowarm.asy</a>, an
+  Asymptote implementation of the cool-to-warm (and related) 
+  <a href="http://www.sandia.gov/~kmorel/documents/ColorMaps">diverging
+  color maps for scientific visualization</a>.  A comparison with
+  Asymptote's BWRainbow can be
+  found <a href="software/cto2vsbwr.png">here</a>.
+</p>
+
 
 
 <HR>
 <H2>Publications</H2>
 
 <p  style="margin-left:4px;">
-  <A href="publications/roberts-mhdvort13.pdf">Self-organisation of helically forced MHD flows
+  <A href="https://www.ualberta.ca/~malcolmr/publications/robertsetal-mhdvort13.pdf">Self-organisation of helically forced MHD flows
 in confined cylindrical geometries</A>,
-  (<a href=publications/roberts-mhdvort13.bib>bibtex</a>)
+  (<a href=https://www.ualberta.ca/~malcolmr/publications/robertsetal-mhdvort13.bib>bibtex</a>)
   <br>&nbsp&nbsp 
 M. Roberts, M. Leroy, J. Morales, W. Bos, and K. Schneider,
   submitted to <I><a href=http://iopscience.iop.org/1873-7005/>Fluid Dynamics Research</a></I>
   (2013).
+<br>&nbsp&nbsp
+<a href=https://www.ualberta.ca/~malcolmr/publications/robertsetal_tubulent_helical_mhd.avi>Animation</a>
+of flow showing isosurfaces of axial velocity with magnitude +/- 3.
 </p>
 
 <p  style="margin-left:4px;">
-<A href="publications/transpose.pdf">
+<A href="https://www.ualberta.ca/~malcolmr/publications/transpose.pdf">
 Adaptive Matrix Transpose Algorithms for Distributed Multicore Processors<A>,
-  (<a href=publications/transpose.bib>bibtex</a>)
+  (<a href=https://www.ualberta.ca/~malcolmr/publications/transpose.bib>bibtex</a>)
   <br>&nbsp&nbsp 
 J. C. Bowman and Malcolm Roberts, submitted to Springer Proceedings of the
 Applied Mathematics, Modelling and Computational Science, (2013).
@@ -170,26 +193,31 @@ Applied Mathematics, Modelling and Computational Science, (2013).
 
 
 <p  style="margin-left:4px;">
-  <A href="publications/mroberts2012cfdcan.pdf">Multithreaded
+  <A href="https://www.ualberta.ca/~malcolmr/publications/mroberts2012cfdcan.pdf">Multithreaded
     Implicitly Dealiased Pseudospectral Convolutions</A>,
-  (<a href=publications/mroberts2012cfdcan.bib>bibtex</a>)
+  (<a href=https://www.ualberta.ca/~malcolmr/publications/mroberts2012cfdcan.bib>bibtex</a>)
   <br>&nbsp&nbsp M. Roberts and J. C. Bowman, To appear in the
   Proceedings of the <I>20th Annual Conference of the CFD Society of Canada</I>
   (2012).
 </p>
 
 <p  style="margin-left:4px;">
-  <A href="publications/roberts_0216.pdf">Dealiased Convolutions for
+  <A href="https://www.ualberta.ca/~malcolmr/publications/roberts_0216.pdf">Dealiased Convolutions for
     Pseudospectral Simulations</A>,
-  (<a href=publications/roberts_0216.bib>bibtex</a>)
+  (<a href=https://www.ualberta.ca/~malcolmr/publications/roberts_0216.bib>bibtex</a>)
   <br>&nbsp&nbsp M. Roberts and J. C. Bowman, Proceedings of
   the <I>13th European Turbulence Conference</I> (2011). <a href=http://iopscience.iop.org/1742-6596/318/7/072037?fromSearchPage=true>Online journal.</a>
 </p>
 
 <p  style="margin-left:4px;">
-  <A href="publications/psr.pdf">Pseudospectral Reduction of
+  <a href="https://play.google.com/store/books/details/Malcolm_Roberts_and_Samantha_Marion_Lab_Notes_for_?id=oazxJVVrC_gC">Lab
+    Notes for Math 201</a> available through Google Books (USA and Canada).  PDF available as well: <a href=https://www.ualberta.ca/~malcolmr/publications/roberts_marion-intro_DEs_lab_manual.pdf>download PDF</a>.
+</p>
+
+<p  style="margin-left:4px;">
+  <A href="https://www.ualberta.ca/~malcolmr/publications/psr.pdf">Pseudospectral Reduction of
     Incompressible Two-Dimensional Turbulence</A>,
-  (<a href=publications/psr.bib>bibtex</a>)
+  (<a href=https://www.ualberta.ca/~malcolmr/publications/psr.bib>bibtex</a>)
   <br>&nbsp&nbsp J. C. Bowman and M. Roberts,
   <I>Communications in Nonlinear Science and Numerical
     Simulation</I> <b>17:5</b> 2008-2013 (2011).
@@ -197,16 +225,16 @@ Applied Mathematics, Modelling and Computational Science, (2013).
 </p>
 
 <p  style="margin-left:4px;">
-  <A HREF="publications/roberts_phd.pdf">
+  <A HREF="https://www.ualberta.ca/~malcolmr/publications/roberts_phd.pdf">
     Multispectral Reduction of Two-Dimensional Turbulence</A>,
-   (<a href=publications/roberts_phd.bib>bibtex</a>)
+   (<a href=https://www.ualberta.ca/~malcolmr/publications/roberts_phd.bib>bibtex</a>)
   <BR>&nbsp&nbsp
   M. Roberts, PhD Thesis, <I>University of Alberta</I>, 2011.
 </p>
 
 <p  style="margin-left:4px;">
-  <A href="publications/dealias.pdf">Efficient Dealiased Convolutions without Padding</A>, 
-(<a href=publications/dealias.bib>bibtex</a>)
+  <A href="https://www.ualberta.ca/~malcolmr/publications/dealias.pdf">Efficient Dealiased Convolutions without Padding</A>, 
+(<a href=https://www.ualberta.ca/~malcolmr/publications/dealias.bib>bibtex</a>)
   <br>&nbsp&nbsp
   J. C. Bowman and M. Roberts,
   <I>SIAM Journal on Scientific Computing</I>, <B>33:1</B>, 386-406 (2011).
@@ -216,7 +244,7 @@ Applied Mathematics, Modelling and Computational Science, (2013).
 
 <p  style="margin-left:4px;">
   <a href="http://fftwpp.sourceforge.net/">FFTW++</a>,
-(<a href=publications/fftwpp.bib>bibtex</a>)
+(<a href=https://www.ualberta.ca/~malcolmr/publications/fftwpp.bib>bibtex</a>)
   <br>&nbsp&nbsp
   A C++ wrapper for the 
   <a href="http://fftw.org/">FFTW</a> library, which also includes new
@@ -224,16 +252,16 @@ Applied Mathematics, Modelling and Computational Science, (2013).
 </p>
 
 <p  style="margin-left:4px;">
-  <A href="publications/report10w2062.pdf">
+  <A href="https://www.ualberta.ca/~malcolmr/publications/report10w2062.pdf">
     Report on the Math-Stat Graduate Education Round table</A>,
   <br>&nbsp&nbsp
   M. Roberts. Report on the <A href=http://www.birs.ca/events/2010/2-day-workshops/10w2062>BIRS workshop</A>.
 </o>
 
 <p  style="margin-left:4px;">
-  <A HREF="publications/etc12articleroberts.pdf">
+  <A HREF="https://www.ualberta.ca/~malcolmr/publications/etc12articleroberts.pdf">
     The Multispectral Method: Progress and Prospects</A>,
-(<a href=publications/etc12articleroberts.bib>bibtex</a>)
+(<a href=https://www.ualberta.ca/~malcolmr/publications/etc12articleroberts.bib>bibtex</a>)
   <br>&nbsp&nbsp
   M. Roberts, J. C. Bowman, and B. Eckhardt
   <I>Advances in Turbulence XII, Proceedings of the 12th EUROMECH
@@ -244,10 +272,10 @@ Applied Mathematics, Modelling and Computational Science, (2013).
 
 
 <p  style="margin-left:4px;">
-  <A HREF="publications/smallscales.pdf">
+  <A HREF="https://www.ualberta.ca/~malcolmr/publications/smallscales.pdf">
     Links between dissipation, intermittency, and
     helicity in the GOY model revisited</A>,
-  (<a href=publications/smallscales.bib>bibtex</a>)
+  (<a href=https://www.ualberta.ca/~malcolmr/publications/smallscales.bib>bibtex</a>)
   <BR>&nbsp&nbsp
   J. C. Bowman, C. R. Doering, B. Eckhardt, J. Davoudi, M. Roberts,
   Joerg Schumacher
@@ -257,9 +285,9 @@ Applied Mathematics, Modelling and Computational Science, (2013).
 </p>
 
 <p  style="margin-left:4px;">
-  <A HREF="publications/roberts_msc.pdf">
+  <A HREF="https://www.ualberta.ca/~malcolmr/publications/roberts_msc.pdf">
     A Multi-Spectral Decimation Scheme for Turbulence Simulations</A>,
-  (<a href=publications/roberts_msc.bib>bibtex</a>)
+  (<a href=https://www.ualberta.ca/~malcolmr/publications/roberts_msc.bib>bibtex</a>)
   <BR>&nbsp&nbsp
   M. Roberts, M.Sc. Thesis, <I>University of Alberta</I>, 2006.
 </p>
@@ -267,6 +295,28 @@ Applied Mathematics, Modelling and Computational Science, (2013).
 
 <HR>
 <H2>Presentations</H2>
+
+<p  style="margin-left:4px;">
+  <a href=talks/mrobert_inria14.pdf onClick="_gaq.push(['_trackEvent', talks', 'Download', 'mrobert_inria14.pdf']);">INRIA CR2 Oral Audition</a>, 2014-05-14
+  <br>&nbsp&nbsp Nancy, France
+</p>
+
+<p  style="margin-left:4px;">
+  <a href=talks/mroberts2014marseilleplasma.pdf>Self-organisation of helically forced MHD flow in confined cylindrical geometries</a>, 2014-04-15
+  <br>&nbsp&nbsp Instabilities and Transport in Magnetized Plasmas,
+Geophysical and Astrophysical Flows, Institute for Advanced
+Study of Aix-Marseille University, France
+</p>
+
+
+<p  style="margin-left:4px;">
+  <a href=talks/mroberts2014strasbourg.pdf>Helices in MHD Flow:
+    Numerical Results from Penalized Pseudospectral Simulations
+  </a>, 2014-03-04
+  <br>&nbsp&nbsp 
+  <a href="http://www-irma.u-strasbg.fr/php/equip_sem.php?equipe=EDPTC&theme=Equations%20aux%20d%E9riv%E9es%20partielles&periode=passe">Seminaire Equations aux derivees partielles</a>, Strasbourg University, France
+</p>
+
 
 <p  style="margin-left:4px;">
   <a href=talks/mroberts_2013-12-03_calscien.pdf>Pseudospectral Simulations in Complex
@@ -280,7 +330,7 @@ Applied Mathematics, Modelling and Computational Science, (2013).
   <a href=talks/mroberts2013euromech542convolve.pdf>Implicitly Dealiased Convolutions for DNS: Preliminary MPI results
   </a>, 2013-01-17
   <br>&nbsp&nbsp 
-  <a href=http://lmfa.ec-lyon.fr/index.php?p_id=lmfa.003.005.000>Euromech 542, Progress in statistical theory and pseudo-spectral DNS </a>, <a href=http://www.ec-lyon.fr/>Ecole Centrale Lyon</a>, France
+  <a href=http://lmfa.ec-lyon.fr/index.pdf?p_id=lmfa.003.005.000>Euromech 542, Progress in statistical theory and pseudo-spectral DNS </a>, <a href=http://www.ec-lyon.fr/>Ecole Centrale Lyon</a>, France
 </p>
 
 <p  style="margin-left:4px;">
@@ -393,8 +443,6 @@ Toronto, 2011-12-11
   <A href="ta_questionaire.pdf">TA questionnaire</A> for Winter 2011
   (<A href="ta_questionaire.tex">tex</A> source).
 </p>  
-
-
 
 </BODY>
 </HTML>
