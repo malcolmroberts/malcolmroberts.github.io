@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Patches for Intel OpenCL for Debian</title>
+</head>
+
+<header>
+  <h1>Patches for Intel OpenCL for Debian</h1>
+</header>
+
+<p>
+The Intel drivers for OpenCL on CPU available
+at <a href="https://software.intel.com/en-us/intel-opencl">intel.com</a>
+were based on the RPMs and ported to .debs via alien.  Unfortunately,
+the install scripts were Fedora-specific, so the resulting .debs would
+fail on install.
+</p>
+
+<p>
+Based on the comments in <a href="https://software.intel.com/en-us/forums/topic/515680">https://software.intel.com/en-us/forums/topic/515680</a>, I created
+patches and a script to apply the patches so that one could install. 
+</p>
+
+<p>The patches are available
+on <a href="https://github.com/malcolmroberts/opencl-intel-deb-patches">github</a> and the resulting .deb files are available here:
+
+  <ul>
+    <li>
+
+      <a href=http://malcolmroberts.github.io/opencl-intel-deb-patched/opencl-1.2-base-4.4.0.117-1.x86_64.patched.deb>opencl-1.2-base-4.4.0.117-1.x86_64.patched.deb</a>
+    </li>
+    <li>
+      <a href=http://malcolmroberts.github.io/opencl-intel-deb-patched/opencl-1.2-devel-4.4.0.117-1.x86_64.patched.deb>opencl-1.2-devel-4.4.0.117-1.x86_64.patched.deb</a>   
+    </li>
+    <li>
+      <a href=http://malcolmroberts.github.io/opencl-intel-deb-patched/opencl-1.2-intel-cpu-4.4.0.117-1.x86_64.patched.deb>opencl-1.2-intel-cpu-4.4.0.117-1.x86_64.patched.deb</a>
+       </li>
+    <li>
+<a href=http://malcolmroberts.github.io/opencl-intel-deb-patched/opencl-1.2-intel-devel-4.4.0.117-1.x86_64.patched.deb>opencl-1.2-intel-devel-4.4.0.117-1.x86_64.patched.deb</a>
+    </li>
+  </ul>
+
+</p> 
+
+</body>
+</html>
